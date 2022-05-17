@@ -204,7 +204,6 @@ footer h2 {
 
 @media screen and (max-width: 767px) {
     body {
-        border: 5px solid blue;
         width: 100vw;
     }
     
@@ -213,7 +212,6 @@ footer h2 {
     }
 
     .navbar__container {
-        border: 5px solid red;
         justify-content: space-between;
     }
     
@@ -229,12 +227,10 @@ footer h2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 5px solid green;
     }
 
     #menu__toggle {
         height:65%;
-        border: 5px solid yellow;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
