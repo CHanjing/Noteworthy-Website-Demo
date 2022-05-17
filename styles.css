@@ -21,6 +21,11 @@ header .navbar__container {
     align-items: center;
 }
 
+header .logoname__wrapper {
+    display: flex;
+    align-items: center;
+}
+
 header .logo {
     height: 81px;
     padding-top: 1px;
@@ -108,8 +113,9 @@ nav #menu__toggle{
 
 
 main {
-    height:600px;
+    height:100vh;
     width:1270px;
+    text-align: center;
 }
 
 #home-page {
@@ -120,31 +126,31 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 80px;
-    
 }
 
-#home-page article {
-    width: 500px; min-width: 500px;
-    height: 355px; min-height: 355px;
-    font-size:18px;
+#home-page .largetext__wrapper{
+    width: 500px;
+    font-size:15px;
     text-align: center;
 }
 
-#home-page .wrapper {
+#home-page .largeimage__wrapper {
     display:flex;
     flex-flow: column;
     align-content: flex-start;
-}
-#home-page img {
     width: 500px;
     height: 355px;
+}
+#home-page img {
+    width: 100%;
+    height: 100%;
 }
 
 #home-page .imgcaption {
     margin: 0;
     text-align: end;
-    min-width: 500px;
     font-size: 10px;
+    width: 100%;
 }
 
 
@@ -198,6 +204,7 @@ footer h2 {
 
 @media screen and (max-width: 767px) {
     body {
+        border: 5px solid blue;
         width: 100vw;
     }
     
@@ -206,29 +213,28 @@ footer h2 {
     }
 
     .navbar__container {
+        border: 5px solid red;
         justify-content: space-between;
-        max-width: 100%;
     }
-
+    
     header .groupname {
         font-size: 100%;
         min-width: 0px;
-        max-width: 70%;
+        max-width: 151px;
     }
 
     header .toggle__wrapper{
-        padding-right: 20px;
         width:90px;
         height:100%;
         display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        border: 5px solid green;
     }
 
     #menu__toggle {
         height:65%;
-        width:100%;
-
+        border: 5px solid yellow;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -255,8 +261,20 @@ footer h2 {
     }
 
     .main__container {
+        padding: 0px !important;
+        width: 100%;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+    }
+
+    .largeimage__wrapper {
+        width: 80% !important; 
+        height: auto !important;
+    }
+
+    .largetext__wrapper {
+        width: 80% !important;
+        padding-bottom: 10%;
     }
 
     
