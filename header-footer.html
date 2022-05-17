@@ -9,6 +9,8 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/montserrat" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Noteworthy Website</title>
+
+    <script src="scripts/app.js"></script>
 </head>
 
 <body>
@@ -23,12 +25,12 @@
             
             <div class="toggle__wrapper">
                 <div id="menu__toggle">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
+                    <a href="#" onclick="toggleMenu()"><div class="bar"></div></a>
+                    <a href="#" onclick="toggleMenu()"><div class="bar"></div></a>
+                    <a href="#" onclick="toggleMenu()"><div class="bar"></div></a>
                 </div>
             </div>
-            <nav>
+            <nav id="navmenu">
                 <ul>
                     <li> <a href="index.html">Home</a> </li>
                     <li>
