@@ -43,6 +43,7 @@ header h1 {
     margin: 0;
     width: 36rem;
     height: 4rem;
+    white-space: nowrap;
 }
 
 nav {
