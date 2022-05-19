@@ -25,7 +25,7 @@ header .navbar__container {
 header .logoname__wrapper {
     display: flex;
     align-items: center;
-    min-width: 46rem;
+    
 }
 
 header .logo {
@@ -46,7 +46,6 @@ header h1 {
 
 nav {
     display: block;
-    min-width: 30rem;
 }
 
 nav ul {
@@ -235,7 +234,7 @@ footer .version p {
     }
 
     .logoname__wrapper {
-        min-width: 19rem;
+        min-width: none !important;
     }
     
     header h1 {
