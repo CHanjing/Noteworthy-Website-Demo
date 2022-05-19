@@ -41,6 +41,7 @@ header h1 {
     font-size: 3.3rem;
     color: #fff;
     margin: 0;
+    width: 36rem;
 }
 
 nav {
@@ -55,6 +56,7 @@ nav ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 1rem;
+    padding-left: 0rem;
 }
 
 nav li {
@@ -242,10 +244,10 @@ footer .version p {
     }
     
     header h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         padding-bottom: 0rem;
         margin: 0;
-        max-width: 8rem;
+        width: 8rem;
     }
 
     header .toggle__wrapper{
