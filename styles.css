@@ -189,7 +189,6 @@ footer h2 {
     width: 100%;
     text-align: center;
     font-size: 1.25rem;
-    border: 5px solid red;
     color: #fff;
     padding-top:1rem;
     margin: 0;
@@ -202,7 +201,6 @@ footer h2 {
     justify-content: center;
     align-items: baseline;
     margin: 0;
-    border: 0px blue solid;
 }
 
 footer .version {
@@ -222,7 +220,6 @@ footer .version p {
 @media screen and (max-width: 768px) {
     body {
         width: 100vw;
-        border: 5px solid blue;
     }
 
     header {
