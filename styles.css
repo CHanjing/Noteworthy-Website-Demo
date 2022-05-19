@@ -35,11 +35,12 @@ header .logo {
     padding-bottom: 0px;
 }
 
-header .groupname {
+header h1 {
+    font-size: 3.3rem;
+    padding-bottom: 1rem;
+    max-height: 3.3rem;  
     color: #fff;
-    font-size: 26px;
-    min-width: 600px; 
-    min-height: 90px;  
+    margin: 0;
 }
 
 nav {
@@ -180,7 +181,7 @@ footer {
     background: #333333;
     height: 170px;
     width: 100%;
-    margin: 0;
+    margin: 0px;
 }
 
 footer h2 {
@@ -204,8 +205,6 @@ footer h2 {
 
 footer .version {
     width: 100%;
-    display: absolte;
-    position: absolute;
     display: flex;
     justify-content: right;
 }
@@ -231,11 +230,13 @@ footer .version p {
         justify-content: space-between;
     }
     
-    header .groupname {
-        font-size: 13px;
-        min-width: 0px;
+    header h1 {
+        font-size: 2rem;
+        max-height: none;
+        padding: 0rem;
         min-height: 0px;
         max-width: 151px;
+        margin: 0;
     }
 
     header .toggle__wrapper{
